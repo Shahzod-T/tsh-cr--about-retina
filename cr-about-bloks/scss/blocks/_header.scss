@@ -1,0 +1,52 @@
+.container__inner{
+  margin-top: 50px;
+  margin-bottom: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack:justify;
+  -ms-flex-pack:justify;
+  justify-content:space-between ;
+}
+
+.site__logo:active{
+  background: #333D4B;
+}
+
+
+
+.nav__list{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+}
+
+
+.nav__item{
+  list-style: none;
+  padding-left: 0;
+}
+
+
+
+
+.nav__link{
+  text-decoration: none;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+  margin-left: 33px;
+  
+  
+}
+
+.nav__link:active{
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  -webkit-box-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}

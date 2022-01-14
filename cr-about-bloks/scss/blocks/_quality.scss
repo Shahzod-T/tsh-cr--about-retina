@@ -1,0 +1,51 @@
+.quality__inner{
+    border-radius: 1px;
+    background-image: url(../images/quality.bg.png);
+    display: flex;
+    margin-bottom: 170px;
+}
+
+
+
+
+.quality__inner__left{
+    position: relative;
+    z-index: 2;
+    
+    top: -100px;
+    
+}
+.quality__inner__left__img{
+    border-radius: 10px;
+}
+
+
+
+.quality__inner__box + .quality__inner__left{
+    margin-left: 100px;
+    
+}
+.quality__inner__title{
+    width: 617px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    padding-top: 100px;
+    padding-left: 85px;
+}
+
+
+
+.quality__inner__text{
+    width: 619px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    
+    padding-left: 85px;
+}
